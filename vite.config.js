@@ -6,6 +6,7 @@ export default defineConfig({
   define: {
     'process.env': process.env
   },
+  base: '/MedCityResearch/',
   plugins: [react()],
   build: {
     commonjsOptions: {
